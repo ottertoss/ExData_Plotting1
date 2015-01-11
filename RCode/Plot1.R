@@ -1,4 +1,4 @@
-function plot1()
+plot1 <- function()
 {
   ##Read in all the data
   powerData <- read.csv("household_power_consumption.txt", colClasses = c("character","character","numeric","numeric","numeric","numeric","numeric","numeric","numeric"), na.strings = c("?"), sep=";")
